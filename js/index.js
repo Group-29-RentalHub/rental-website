@@ -97,7 +97,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Scrollable images
     const scrollableImages = [
-        'images/hostel3.jpg',
+        'images/room3.jpg',
         'images/hostel.jpg',
         'images/house2.jpg',
         'images/house1.jpg',
