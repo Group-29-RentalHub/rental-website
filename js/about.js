@@ -9,19 +9,19 @@ const teamMembers = [
         name: "Beris",
         role: "Chief Technology Officer",
         bio: "Beris leads our tech team, ensuring Rental Hub stays at the forefront of innovation in the property tech space.",
-        image: "images/beris.jpg"
+        image: "images/bag3.jpg"
     },
     {
         name: "Trejan",
         role: "Head of Customer Relations",
         bio: "Trejan's passion for customer satisfaction drives our commitment to providing exceptional service to all our clients.",
-        image: "images/trejan1.jpg"
+        image: "images/bag1.jpg"
     },
     {
         name: "Claire",
         role: "Senior Property Manager",
         bio: "Claire's extensive knowledge of property management ensures our listings meet the highest standards of quality.",
-        image: "images/claire.jpg"
+        image: "images/bag2.jpg"
     },
     {
         name: "Claire",
