@@ -22,7 +22,14 @@ const teamMembers = [
         role: "Senior Property Manager",
         bio: "Claire's extensive knowledge of property management ensures our listings meet the highest standards of quality.",
         image: "images/claire.jpg"
+    },
+    {
+        name: "Claire",
+        role: "Senior Property Manager",
+        bio: "Claire's extensive knowledge of property management ensures our listings meet the highest standards of quality.",
+        image: "images/room5.jpg"
     }
+
 ];
 
 function displayTeamMembers() {
