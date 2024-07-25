@@ -109,6 +109,7 @@ hr {
   position: relative;
   margin: 0 auto;
   max-width: 900px;
+  background-color: purple;
 }
 
 .menu .menu-table {
@@ -297,7 +298,7 @@ hr {
   font-weight: 300;
   line-height: 1.5;
   overflow-x: auto;
-  background-color: #005cbf;
+  background-color: purple;
   display: flex;
 }
 
@@ -369,6 +370,7 @@ hr {
   align-items: center;
   align-content: stretch;
   box-sizing: border-box;
+  
 }
 
 .flex-item-stretch {
