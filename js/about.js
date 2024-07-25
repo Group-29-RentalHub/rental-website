@@ -2,25 +2,25 @@ const teamMembers = [
     {
         name: "Raj",
         role: "Founder & CEO",
-        bio: "With over 15 years of experience in real estate, Sarah founded Rental Hub to revolutionize the rental market.",
+        bio: "With over 15 years of experience in real estate, Raj founded Rental Hub to revolutionize the rental market.",
         image: "images/raj.jpg"
     },
     {
         name: "Beris",
         role: "Chief Technology Officer",
-        bio: "Michael leads our tech team, ensuring Rental Hub stays at the forefront of innovation in the property tech space.",
+        bio: "Beris leads our tech team, ensuring Rental Hub stays at the forefront of innovation in the property tech space.",
         image: "images/beris.jpg"
     },
     {
         name: "Trejan",
         role: "Head of Customer Relations",
-        bio: "Emily's passion for customer satisfaction drives our commitment to providing exceptional service to all our clients.",
+        bio: "Trejan's passion for customer satisfaction drives our commitment to providing exceptional service to all our clients.",
         image: "images/trejan1.jpg"
     },
     {
-        name: "David Okonkwo",
+        name: "Claire",
         role: "Senior Property Manager",
-        bio: "David's extensive knowledge of property management ensures our listings meet the highest standards of quality.",
+        bio: "Claire's extensive knowledge of property management ensures our listings meet the highest standards of quality.",
         image: "images/claire.jpg"
     }
 ];
