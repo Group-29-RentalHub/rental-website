@@ -24,10 +24,10 @@ const teamMembers = [
         image: "images/bag2.jpg"
     },
     {
-        name: "Claire",
+        name: "Eric",
         role: "Senior Property Manager",
         bio: "Claire's extensive knowledge of property management ensures our listings meet the highest standards of quality.",
-        image: "images/room5.jpg"
+        image: "images/bag6.jpg"
     }
 
 ];
