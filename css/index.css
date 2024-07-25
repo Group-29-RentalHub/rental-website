@@ -1,3 +1,4 @@
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -10,7 +11,6 @@ body {
     color: #333;
 }
 
-
 header {
     background-color: #4a0e78;
     color: #fff;
@@ -22,20 +22,12 @@ header h1 {
     text-align: center;
 }
 
-
-nav ul {
-    list-style-type: none;
-    display: flex;
-}
-
-
 nav {
     position: sticky;
     top: 0;
     background-color: #4a0e78;
     padding: 1rem 0;
     z-index: 1000;
-    
 }
 
 nav ul {
@@ -105,24 +97,69 @@ main {
 }
 
 #image-slider {
+    position: relative;
     width: 100%;
     height: 400px;
-    position: relative;
     overflow: hidden;
     margin-bottom: 2rem;
 }
 
-#image-slider img {
-    width: 50%;
+.slider-container {
+    width: 100%;
     height: 100%;
-    object-fit:fill;
-    position: absolute;
-    opacity: 0;
-    transition: opacity 0.5s ease-in-out;
+    position: relative;
 }
 
-#image-slider img.active {
+.slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    display: flex;
+}
+
+.slide.active {
     opacity: 1;
+}
+
+.slide img {
+    width: 60%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.slide-description {
+    width: 40%;
+    padding: 2rem;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.slider-controls {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+.slider-controls button {
+    background-color: #4a0e78;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    margin: 0 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.slider-controls button:hover {
+    background-color: #6a1e9a;
 }
 
 #scrollable-images {
@@ -142,7 +179,7 @@ main {
 footer {
     background-color: #4a0e78;
     color: #fff;
-    padding: 8rem;
+    padding: 2rem;
     display: flex;
     justify-content: space-between;
 }
